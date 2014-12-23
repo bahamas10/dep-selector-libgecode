@@ -2692,7 +2692,7 @@ $as_echo_n "checking for the host operating system... " >&6; }
        guess_host_os=${with_host_os}
         fi
           case ${guess_host_os} in
-       GNU/kFreeBSD|*inux*|FreeBSD|NetBSD)
+       GNU/kFreeBSD|*inux*|FreeBSD|NetBSD|SunOS)
        host_os=linux
        { $as_echo "$as_me:${as_lineno-$LINENO}: result: Linux" >&5
 $as_echo "Linux" >&6; }
